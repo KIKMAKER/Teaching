@@ -15,7 +15,8 @@ else
   puts "You are too young to vote"
 end
 
-!condition -> opposite
+# !condition -> opposite
+
 condition = age >= 18
 
 if !condition
