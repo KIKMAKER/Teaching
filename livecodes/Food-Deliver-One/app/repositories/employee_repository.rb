@@ -9,7 +9,18 @@ class EmployeeRepository
     load_csv if File.exist?(@csv_file)
   end
 
-  def find(username)
+  def all_riders
+    @employees.select { |employee| employee.rider? }
+  end
+
+
+  def find(id)
+    @employees.find do |employee|
+      employee.id == id
+    end
+  end
+
+  def find_by_username(username)
     @employees.find { |employee| employee.username == username }
   end
 

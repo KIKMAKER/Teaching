@@ -1,0 +1,29 @@
+.cards-container {
+  display: flex
+}
+
+.card-white {
+  background-color: white;
+  border: 1px solid rgb(240, 240, 240);
+  padding: 8px;
+  width: 250px
+}
+
+.card-white-image {
+  height: 150px;
+  background-size: cover;
+  background-size: 100%;
+}
+
+.list-inline {
+  color: #B0B0B0;
+  text-align: right;
+  padding-top: 8px;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-left: 4px
+}
