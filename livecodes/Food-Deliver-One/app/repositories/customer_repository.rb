@@ -20,6 +20,12 @@ class CustomerRepository
     save_csv
   end
 
+  def find(id)
+    @customers.find do |customer|
+      customer.id == id
+    end
+  end
+
 
   def load_csv
     CSV.foreach(@csv_file, headers: :first_row, header_converters: :symbol) do |row|

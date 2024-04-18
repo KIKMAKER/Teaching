@@ -12,7 +12,7 @@ class SessionsController
     # Ask the user for their password
     password = @sessions_view.ask_for_something('password')
     # if username exists and password matches
-    employee = @employee_repository.find(username)
+    employee = @employee_repository.find_by_username(username)
     if employee && employee.password == password
       # display logged in message
       @sessions_view.display("You are logged in")
