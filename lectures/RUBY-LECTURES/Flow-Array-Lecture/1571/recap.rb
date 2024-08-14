@@ -86,7 +86,7 @@ require 'date' # the only data type we have covered that isn't built in
   puts (1..10).to_a
 
   # example of chaining methods
-  puts (1..10).to_a.join(', ')
+  puts (1..10).to_a.join(' ')
 
   puts (Date.today..Date.today+10)
 
