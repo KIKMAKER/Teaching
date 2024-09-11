@@ -1,0 +1,7 @@
+Patient
+- name : string
+- age : integer
+
+Room
+- capacity : integer
+- patients : []

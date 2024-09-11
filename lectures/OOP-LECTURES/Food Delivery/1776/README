@@ -1,0 +1,7 @@
+Patient
+- name (string)
+- cured (boolean)
+
+Room
+- capacity (integer)
+- patients (array)
