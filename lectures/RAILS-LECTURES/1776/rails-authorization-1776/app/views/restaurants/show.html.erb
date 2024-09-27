@@ -1,0 +1,20 @@
+<p style="color: green"><%= notice %></p>
+
+<p>
+    <strong>Name:</strong>
+    <%= @restaurant.name %>
+  </p>
+
+  <p>
+    <strong>Contact:</strong>
+    <%= @restaurant.describe_owner %>
+  </p>
+
+<div>
+  <% if @restaurant.user == current_user %>
+    <%= link_to "Edit this restaurant", edit_restaurant_path(@restaurant) %> |
+    <%= link_to "Destroy this restaurant", restaurant_path(@restaurant), data: {turbo_method: :delete, turbo_confirm: "Are you sure you really want to delete this restaurant #{@restaurant.name}"} %>
+  <% end %>
+  <%= link_to "Back to restaurants", restaurants_path %>
+
+</div>
