@@ -8,6 +8,7 @@ class TaskController
   end
 
   def add
+    # ask the user what task to add (VIEW)
     description = @task_view.ask_for_description
     new_task = Task.new(description)
     @task_repository.create(new_task)

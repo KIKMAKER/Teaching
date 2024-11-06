@@ -7,4 +7,8 @@ controller = TaskController.new(repository)
 
 router = Router.new(controller)
 
+p repository
+p controller
+p router
+
 router.run

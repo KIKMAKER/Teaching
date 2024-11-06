@@ -14,7 +14,6 @@ class Router
     end
   end
 
-
   def perform_action(action)
     case action
     when "add"
