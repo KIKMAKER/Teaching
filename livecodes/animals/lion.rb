@@ -1,12 +1,10 @@
 require_relative 'animal'
-
 class Lion < Animal
   def talk
-    puts "#{@name} roars"
+    puts "#{super} roars"
   end
 
   def eat(food)
-    puts "#{super(food)}. Law of the jungle"
-
+    super + " " + "Law of the Jungle!"
   end
 end

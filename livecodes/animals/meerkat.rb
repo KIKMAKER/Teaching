@@ -1,7 +1,6 @@
 require_relative 'animal'
-
 class Meerkat < Animal
   def talk
-    puts "#{@name} barks"
+    puts "#{super} barks"
   end
 end

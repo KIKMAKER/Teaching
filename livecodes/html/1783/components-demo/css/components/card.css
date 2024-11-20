@@ -1,0 +1,31 @@
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 250px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 8px;
+  color: #B0B0B0
+}
+
+.card-image {
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 100%
+}
+
+.card-user {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+i {
+  margin-right: 4px
+}
