@@ -1,0 +1,14 @@
+.big-image {
+  width: 100%;
+  margin: 8px 0px;
+}
+
+.small-image {
+  width: 30%
+}
+
+.images {
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+}

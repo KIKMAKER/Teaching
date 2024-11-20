@@ -1,0 +1,14 @@
+HOSPITAL APP
+
+Patient
+- name (string)
+- cured (boolean)
+
+Room
+- capacity (integer)
+- patients (array - of patient instances)
+
+
+# add a patient to a room
+# see which patients are in which rooms
+# see information about each patient

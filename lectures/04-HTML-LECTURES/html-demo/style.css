@@ -1,0 +1,46 @@
+/* TODO: design your profile with CSS */
+h1 {
+  color: rgb(130 61 175);;
+  font-size: 64px;
+  letter-spacing: 4px;
+  font-family: "Quicksand", sans-serif;
+}
+
+h2, h3, p, li, a {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(243, 46, 190);
+  font-size: 32px;
+  line-height: 40px;
+
+}
+
+img {
+  width: 120px;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto
+}
+
+#id {
+  text-decoration: underline;
+}
+
+div {
+  border: 2px solid white;
+  border-radius: 40px;
+  background-color: #ffffff61;
+  padding: 8px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}

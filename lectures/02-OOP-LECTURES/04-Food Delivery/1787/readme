@@ -1,0 +1,12 @@
+HOSPITAL APP
+
+Patients
+- name : string
+- age : integer
+- cured : boolean
+
+
+
+Rooms
+- capacity : integer
+- patients : array (of patient instances)

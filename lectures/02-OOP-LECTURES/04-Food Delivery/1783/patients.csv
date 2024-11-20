@@ -1,0 +1,4 @@
+id,name,age,blood_type,cured,room_id
+1,Sandy,35,B+,false,1
+2,john,42,O-,true,1
+

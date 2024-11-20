@@ -1,0 +1,4 @@
+id,name,cured,blood_type,room_id
+1,Sarah,true,A-,1
+2,John,false,nil,1
+3,Max,false,AB,1

@@ -1,0 +1,30 @@
+.card-container {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  width: 720px;
+}
+
+.card-info {
+
+  display: flex;
+  padding: 16px;
+
+}
+
+.big-image {
+}
+
+.images {
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.product-description {
+  height: 170px
+
+}
